@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎵 Мой Музыкальный Мир</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-music"></i> Мой Музыкальный Мир</h1>
+            <p>Коллекция лучших треков всех времён</p>
+        </header>
+
+        <!-- Статистика -->
+        <section class="stats">
+            <div class="stat-item">
+                <div class="stat-number" id="totalSongs">0</div>
+                <div class="stat-label">Всего песен</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="totalArtists">0</div>
+                <div class="stat-label">Уникальных исполнителей</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="oldestYear">-</div>
+                <div class="stat-label">Самый старый релиз</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="newestYear">-</div>
+                <div class="stat-label">Самый новый релиз</div>
+            </div>
+        </section>
+
+        <!-- Фильтры -->
+        <section class="filters">
+            <button class="filter-btn active" data-genre="all" onclick="filterSongs('all')">
+                <i class="fas fa-star"></i> Все песни
+            </button>
+            <button class="filter-btn" data-genre="rock" onclick="filterSongs('rock')">
+                <i class="fas fa-guitar"></i> Рок
+            </button>
+            <button class="filter-btn" data-genre="pop" onclick="filterSongs('pop')">
+                <i class="fas fa-microphone"></i> Поп
+            </button>
+            <button class="filter-btn" data-genre="funk" onclick="filterSongs('funk')">
+                <i class="fas fa-drum"></i> Фанк
+            </button>
+            <button class="filter-btn" data-genre="soul" onclick="filterSongs('soul')">
+                <i class="fas fa-heart"></i> Соул
+            </button>
+            <button class="filter-btn" data-genre="disco" onclick="filterSongs('disco')">
+                <i class="fas fa-compact-disc"></i> Диско
+            </button>
+        </section>
+
+        <!-- Плейлист -->
+        <section class="songs-grid" id="songs">
+            <!-- Песни загружаются через JS -->
+        </section>
+
+        <!-- Форма добавления -->
+        <section class="add-song-form">
+            <h2><i class="fas fa-plus-circle"></i> Добавить новую песню</h2>
+            <form id="addForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <input type="text" id="title" placeholder="Название песни *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="artist" placeholder="Исполнитель *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="genre" placeholder="Жанр">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="year" placeholder="Год выпуска" min="1900" max="2025">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="duration" placeholder="Длительность (например, 3:45)">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="album" placeholder="Альбом">
+                    </div>
+                    <div class="form-group">
+                        <input type="url" id="cover" placeholder="URL обложки">
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-plus"></i> Добавить в плейлист
+                </button>
+            </form>
+        </section>
+
+        <footer>
+            <p>🎶 Express.js Music API • Контрольная работа по индустриальному программированию • 2025</p>
+            <p>Коллекция обновляется в реальном времени • Всего треков: <span id="footerCount">0</span></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

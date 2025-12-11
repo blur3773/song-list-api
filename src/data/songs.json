@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "genre": "Rock",
+    "year": 1975,
+    "duration": "5:55",
+    "album": "A Night at the Opera",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Bohemian_Rhapsody.png/220px-Bohemian_Rhapsody.png"
+  },
+  {
+    "id": 2,
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "genre": "Synth-pop",
+    "year": 2020,
+    "duration": "3:22",
+    "album": "After Hours",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Weeknd_-_Blinding_Lights.png"
+  },
+  {
+    "id": 4,
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "year": 2017,
+    "duration": "3:54",
+    "album": "÷",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png"
+  },
+  {
+    "id": 5,
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "genre": "Electropop",
+    "year": 2019,
+    "duration": "3:14",
+    "album": "When We All Fall Asleep, Where Do We Go?",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png/220px-When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png"
+  },
+  {
+    "id": 6,
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "genre": "Disco",
+    "year": 2020,
+    "duration": "3:24",
+    "album": "Future Nostalgia",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png"
+  },
+  {
+    "id": 7,
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "genre": "Hard Rock",
+    "year": 1971,
+    "duration": "8:02",
+    "album": "Led Zeppelin IV",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "genre": "Funk",
+    "year": 1982,
+    "duration": "4:54",
+    "album": "Thriller",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
+  },
+  {
+    "id": 9,
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "genre": "Soul",
+    "year": 2010,
+    "duration": "3:48",
+    "album": "21",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png"
+  },
+  {
+    "id": 10,
+    "title": "Take On Me",
+    "artist": "a-ha",
+    "genre": "Synth-pop",
+    "year": 1985,
+    "duration": "3:47",
+    "album": "Hunting High and Low",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/07/Take_On_Me_%28A-ha_single_-_cover_art%29.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "genre": "Rock",
+    "year": 1976,
+    "duration": "6:30",
+    "album": "Hotel California",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "genre": "Funk",
+    "year": 2014,
+    "duration": "4:30",
+    "album": "Uptown Special",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Uptown_Funk_cover.png"
+  }
+]
